@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="NSC"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="#ff0000"
+        android:textColor="@color/white"
+        ></TextView>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="assignment activity"
+       android:textSize="25sp"></TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Home"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            ></Button>
+        <Button
+            android:id="@+id/aboutus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="About Us"
+            android:layout_weight="1"
+            android:layout_margin="8dp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/services"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Services"
+            android:layout_weight="1"
+            android:layout_margin="8dp"></Button>
+        <Button
+            android:id="@+id/contacts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Contacts"
+            android:layout_weight="1"
+            android:layout_margin="8dp"></Button>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visit URL"
+        android:layout_margin="5dp"
+        ></Button>
+</LinearLayout>
